@@ -9,20 +9,20 @@ for (int ticket = 1; ticket <= 30; ticket++)
     System.Console.WriteLine($"Первый доступный билет: {ticket}, Билетов было пропущено: {count}");
     break;
 }
-//Вариант А
+//Задание А
 
 // for (int N = 77; N != 0; N--) {
 //     if (N % 2==1){System.Console.WriteLine(N);}}
 
-//Вариант Б
+//Задание Б
 
 // for (int N = 110; N >= 0; N = N - 10) { System.Console.WriteLine(N); }
 
-// 2
+//Вариант 2
 //  int M = 3;
 //  for (int N = 7; N >= 0; N = N - M) {System.Console.WriteLine(N); }
 
-// // 5
+//Вариант 5
 // for (int C = 1; C!=100; C++)
 // {
 //     if(C % 3 == 0 && C % 5 ==0) { System.Console.WriteLine(C); break; }
